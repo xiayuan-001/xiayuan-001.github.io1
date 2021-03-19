@@ -1,0 +1,227 @@
+/* 取消页脚背景 */
+#footer {
+  background: none;
+}
+
+/*透明*/
+#recent-posts{
+  opacity: 0.9;
+}
+#aside-content{
+  opacity: 0.9;
+}
+#page-header{
+  opacity: 0.9;
+}
+div#post{
+	opacity: 0.9;
+}
+/* 滚动条优化 */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(73, 177, 245, 0.2);
+  border-radius: 2em;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #49b1f5;
+  background-image: -webkit-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.4) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.4) 50%,
+    rgba(255, 255, 255, 0.4) 75%,
+    transparent 75%,
+    transparent
+  );
+  border-radius: 2em;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+::-moz-selection {
+  color: #fff;
+  background-color: #ec29f3;
+}
+
+
+/* 头像点击特效 */
+.card-info-avatar:hover {
+  background: url(https://gitee.com/lovelijunyi/images/raw/master/20200530181856.gif);
+}
+
+/*用于上标标签兼容黑暗模式，勿要删除*/
+
+[data-theme="dark"] .tip {
+  filter: brightness(0.7);
+}
+[data-theme="dark"] .tip {
+  color: #4c4948;
+}
+
+/*
+@font-face{
+  font-family:'Candyhome' ;  
+  src:url('/fonts/zk.TTF'); 
+  font-display : swap;
+}*/a
+
+.icon {
+   width: 1em; height: 1em;
+    width和height定义图标的默认宽度和高度
+   vertical-align: -0.15em;
+   fill: currentColor;
+   overflow: hidden;
+} 
+/*@import "//at.alicdn.com/t/font_2321867_9r0in33jfxd.css";
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-dog:before {
+  content: "\e607";
+}
+
+.icon-goat:before {
+  content: "\e608";
+}
+
+.icon-dragon:before {
+  content: "\e609";
+}
+
+.icon-horse:before {
+  content: "\e60a";
+}
+
+.icon-monkey:before {
+  content: "\e60b";
+}
+
+.icon-ox:before {
+  content: "\e60c";
+}
+
+.icon-rabbit:before {
+  content: "\e60d";
+}
+
+.icon-rat:before {
+  content: "\e60e";
+}
+
+.icon-rooster:before {
+  content: "\e60f";
+}
+
+.icon-snake:before {
+  content: "\e610";
+}
+
+.icon-tiger:before {
+  content: "\e611";
+}
+
+.icon-boar:before {
+  content: "\e612";
+}
+
+.icon-bilibili:before {
+  content: "\e600";
+}
+
+.icon-gitee:before {
+  content: "\e602";
+}*/
+
+@font-face {
+font-family: 'iconfont';
+src: url('/fonts/iconfont.eot');
+src: url('/fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+url('/fonts/iconfont.woff2') format('woff2'),
+url('/fonts/iconfont.woff') format('woff'),
+url('/fonts/iconfont.ttf') format('truetype'),
+url('/fonts/iconfont.svg#iconfont') format('svg');
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-dog:before {
+  content: "\e607";
+}
+
+.icon-goat:before {
+  content: "\e608";
+}
+
+.icon-dragon:before {
+  content: "\e609";
+}
+
+.icon-horse:before {
+  content: "\e60a";
+}
+
+.icon-monkey:before {
+  content: "\e60b";
+}
+
+.icon-ox:before {
+  content: "\e60c";
+}
+
+.icon-rabbit:before {
+  content: "\e60d";
+}
+
+.icon-rat:before {
+  content: "\e60e";
+}
+
+.icon-rooster:before {
+  content: "\e60f";
+}
+
+.icon-snake:before {
+  content: "\e610";
+}
+
+.icon-tiger:before {
+  content: "\e611";
+}
+
+.icon-boar:before {
+  content: "\e612";
+}
+
+.icon-bilibili:before {
+  content: "\e600";
+}
+
+.icon-gitee:before {
+  content: "\e602";
+}
+
+
+/* 鼠标图标 */
+
+body {
+    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/Jkll8I.png), auto;
+}
